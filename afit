@@ -1,0 +1,29 @@
+let sign  n =
+  if n> 1 then 1 
+  else  -1 ;;
+
+let abs n =
+if n < 0 then n
+else n 
+ 
+let quote a b =
+if a> 0 && b>0 then 
+  match a with
+     a when a < b -> 0
+    |_ -> a/b
+else if a<0 && b<0 then   
+  match abs(a) with
+    abs(a)  when abs(a) <abs(b) -> 0
+    |_ -> abs(a)/abs(b
+
+
+
+quote 20 5;;
+
+(*
+let quote a b q =
+  if a<b then 0
+  else let q = a/ b;;
+quote 20 5 
+*)
+ 
